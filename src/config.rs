@@ -2,6 +2,9 @@
 use serde::de::DeserializeOwned;
 use std::{env, fs::File};
 
+/// Try to deserialize an instance of type T from a JSON file passed in as a literal string.
+///
+///**NOTE: The struct you plan to parse JSON into must implement Deserialize.**
 pub fn load_config<T: DeserializeOwned>(file_path: &str) -> Option<T> {
     let file_result = File::open(file_path);
 
