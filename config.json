@@ -1,0 +1,10 @@
+{
+    "db": {
+        "host": "192.168.1.25",
+        "user": "mcpeakml",
+        "password": "AF13qead!"
+    },
+    "host": "127.0.0.1",
+    "port": 3000,
+    "log_level": "info"
+}
