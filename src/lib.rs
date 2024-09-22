@@ -24,5 +24,5 @@
 ///     }
 /// }
 /// ```
-mod config;
+pub mod config;
 pub use crate::config::*;
